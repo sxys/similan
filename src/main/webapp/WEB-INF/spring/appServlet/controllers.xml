@@ -8,12 +8,19 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
 	<context:component-scan base-package="org.springframework.samples.mvc" />
+	<context:component-scan base-package="com.dfj.similan.controller" />
+	<context:component-scan base-package="com.dfj.similan.service" />  
 
 	<!--Routes -->
-	<mvc:view-controller path="/" view-name="home"/>
-	<mvc:view-controller path="/getstarted" view-name="getstarted"/>
-	<mvc:view-controller path="/errors-validations" view-name="errors-validations"/>	  
-	<mvc:view-controller path="/misc" view-name="misc"/>	  
-	<mvc:view-controller path="/faq" view-name="faq"/>
+	<mvc:view-controller path="/tutorial/" view-name="tutorial/home"/>
+	<mvc:view-controller path="/tutorial/getstarted" view-name="tutorial/getstarted"/>
+	<mvc:view-controller path="/tutorial/errors-validations" view-name="tutorial/errors-validations"/>	  
+	<mvc:view-controller path="/tutorial/misc" view-name="tutorial/misc"/>	  
+	<mvc:view-controller path="/tutorial/faq" view-name="tutorial/faq"/>
+	<mvc:view-controller path="/tutorial/form" view-name="tutorial/form"/>
+	<mvc:view-controller path="/tutorial/fileupload" view-name="tutorial/fileupload"/>
+	
+	
+	<mvc:view-controller path="/dfj/" view-name="dfj/home"/>
 
 </beans>

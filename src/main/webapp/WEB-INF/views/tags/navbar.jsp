@@ -11,12 +11,12 @@
         </div>
         <div class="navbar-collapse collapse">  
           <ul class="nav navbar-nav">
-            <li class="active"><a href="<c:url value="/" />">Home</a></li>
-            <li><a href="<c:url value="/getstarted" />">Get started</a></li>
-            <li><a href="<c:url value="/errors-validations" />">Errors &amp; Validations</a></li>
-            <li><a href="<c:url value="/form" />">Forms</a></li>
-            <li><a href="<c:url value="/fileupload" />">File Upload</a></li>
-            <li><a href="<c:url value="/misc" />">Misc</a></li>
+            <li class="active"><a href="<c:url value="/tutorial/" />">Home</a></li>
+            <li><a href="<c:url value="/tutorial/getstarted" />">Get started</a></li>
+            <li><a href="<c:url value="/tutorial/errors-validations" />">Errors &amp; Validations</a></li>
+            <li><a href="<c:url value="/tutorial/form" />">Forms</a></li>
+            <li><a href="<c:url value="/tutorial/fileupload" />">File Upload</a></li>
+            <li><a href="<c:url value="/tutorial/misc" />">Misc</a></li>
           </ul>
         </div>   			      		 
   </div>

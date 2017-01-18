@@ -7,6 +7,6 @@
     </excludes>
 	
 	<decorator name="main-layout" page="main-layout.jsp">
-        <pattern>/*</pattern>     
+        <pattern>/tutorial/*</pattern>     
     </decorator>	
 </decorators>

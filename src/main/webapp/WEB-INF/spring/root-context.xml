@@ -56,6 +56,6 @@
             /> -->  
     </bean>  
     
-     <context:component-scan base-package="com.dfj.similan.service" />  
+   
     
 </beans>
