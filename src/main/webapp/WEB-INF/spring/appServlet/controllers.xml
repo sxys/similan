@@ -21,6 +21,6 @@
 	<mvc:view-controller path="/tutorial/fileupload" view-name="tutorial/fileupload"/>
 	
 	
-	<mvc:view-controller path="/dfj/" view-name="dfj/home"/>
+	<mvc:view-controller path="/dfj" view-name="dfj/home"/>
 
 </beans>

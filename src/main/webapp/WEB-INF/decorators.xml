@@ -9,4 +9,8 @@
 	<decorator name="main-layout" page="main-layout.jsp">
         <pattern>/tutorial/*</pattern>     
     </decorator>	
+    
+	<decorator name="home-layout" page="home-layout.jsp">
+        <pattern>/dfj/*</pattern>     
+    </decorator>	
 </decorators>
